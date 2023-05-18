@@ -27,8 +27,8 @@
 # 888888888888888888888888888888888888888888888888888888888888888888888888888888
 
 # Open Data Source
-dataSource = r'https://services1.arcgis.com/EYzEZbDhXZjURPbP/arcgis/rest/services/Bellevue_Permits/FeatureServer/0' # /query?outFields=*&where=1%3D1&f=pjson
-dataFields = 'PERMITSTATUS,PERMITNUMBER,PERMITTYPE,PERMITTYPEDESCRIPTION,PERMITYEAR,PROJECTNAME,PROJECTDESCRIPTION,APPLICANT,CONTRACTOR,APPLIEDDATE,ISSUEDDATE,ZONING,LOTSIZE'#outFields= 
+dataSource = r'https://services1.arcgis.com/EYzEZbDhXZjURPbP/arcgis/rest/services/Bellevue_Permits/FeatureServer/0'
+dataFields = 'PERMITSTATUS,PERMITNUMBER,PERMITTYPE,PERMITTYPEDESCRIPTION,PERMITYEAR,PROJECTNAME,PROJECTDESCRIPTION,APPLICANT,CONTRACTOR,APPLIEDDATE,ISSUEDDATE,ZONING,LOTSIZE'
 dataWKID = 4326 
 dataFMT = r'json'
 dataWhereC = '1=1' # Where clause statement... Example r'PERMITSTATUS=\'Closed\''. Set to 1=1 if you want to pull all records.

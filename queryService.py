@@ -8,8 +8,9 @@
 #
 #
 # Created:    18 May 2023
-# Modified:
-# Modification Purpose:
+# Modified:   20 May 2023
+# Modification Purpose: Added in max output restriction on API call. Prevents
+#                       different settings from breaking the data collection.
 #
 #
 #-------------------------------------------------------------------------------
